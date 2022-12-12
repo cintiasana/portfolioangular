@@ -1,0 +1,8 @@
+/*titulo h1 del banner*/
+.title-banner {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 500%;
+    color: #FFF5E4;
+    margin-top: -20%;
+}

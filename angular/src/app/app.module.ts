@@ -11,6 +11,9 @@ import { GithubComponent } from './componentes/navbar/github/github.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { UsuariocandadoComponent } from './componentes/navbar/usuariocandado/usuariocandado.component';
 import { UsuarioabiertoComponent } from './componentes/navbar/usuarioabierto/usuarioabierto.component';
+import { BannerComponent } from './componentes/banner/banner.component';
+import { TitulobannerComponent } from './componentes/banner/titulobanner/titulobanner.component';
+import { ImgbannerComponent } from './componentes/banner/imgbanner/imgbanner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { UsuarioabiertoComponent } from './componentes/navbar/usuarioabierto/usu
     GithubComponent,
     InicioComponent,
     UsuariocandadoComponent,
-    UsuarioabiertoComponent
+    UsuarioabiertoComponent,
+    BannerComponent,
+    TitulobannerComponent,
+    ImgbannerComponent
   ],
   imports: [
     BrowserModule,

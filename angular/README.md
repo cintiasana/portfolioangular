@@ -11,11 +11,12 @@
 
 *INICIO = pagina principal para llamar las etiquetas de los componentes
 *NAVBAR = logonavbar-linkedin-codepen-github
+
 #### v1.01 12/12/22
 *corrigindo detalless del navbar, direccion de la imagen del logo.
 *para que se vea la pagina principal de inicio hay que vincularla con el app routing module.
 
-*BANNER
+*BANNER = titulobanner - imgbanner
 *PERFIL
 *PRESENTACION
 *EXPERIENCIA
