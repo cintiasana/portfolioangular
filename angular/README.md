@@ -18,8 +18,8 @@
 
 *BANNER = titulobanner - imgbanner
 *PERFIL = nombreperfil - imgperfil
-*PRESENTACION
-*EXPERIENCIA
+*PRESENTACION = textopresent
+*EXPERIENCIA = descripuesto 1y2 - logoempresa 1y2
 *EDUCACION
 *HABILIDADES
 *PROYECTOS
