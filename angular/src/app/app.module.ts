@@ -14,6 +14,9 @@ import { UsuarioabiertoComponent } from './componentes/navbar/usuarioabierto/usu
 import { BannerComponent } from './componentes/banner/banner.component';
 import { TitulobannerComponent } from './componentes/banner/titulobanner/titulobanner.component';
 import { ImgbannerComponent } from './componentes/banner/imgbanner/imgbanner.component';
+import { PerfilComponent } from './componentes/perfil/perfil.component';
+import { NombreperfilComponent } from './componentes/perfil/nombreperfil/nombreperfil.component';
+import { ImgperfilComponent } from './componentes/perfil/imgperfil/imgperfil.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { ImgbannerComponent } from './componentes/banner/imgbanner/imgbanner.com
     UsuarioabiertoComponent,
     BannerComponent,
     TitulobannerComponent,
-    ImgbannerComponent
+    ImgbannerComponent,
+    PerfilComponent,
+    NombreperfilComponent,
+    ImgperfilComponent
   ],
   imports: [
     BrowserModule,

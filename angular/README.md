@@ -17,7 +17,7 @@
 *para que se vea la pagina principal de inicio hay que vincularla con el app routing module.
 
 *BANNER = titulobanner - imgbanner
-*PERFIL
+*PERFIL = nombreperfil - imgperfil
 *PRESENTACION
 *EXPERIENCIA
 *EDUCACION
