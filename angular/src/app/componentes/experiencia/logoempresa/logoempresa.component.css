@@ -1,0 +1,7 @@
+/*logos empresas de trabajo*/
+.logo-exp {
+    width: 50%;
+    height:75%;
+    filter: drop-shadow(0 0 0.75rem rgb(24, 23, 23));
+    margin-right: 8rem;
+}
