@@ -1,0 +1,5 @@
+/* color del navbar */
+.bg-pink{
+    background: rgb(161,18,249);
+    background: linear-gradient(164deg, rgba(161,18,249,0.8799894957983193) 30%, rgba(253,29,248,0.8295693277310925) 52%, rgba(252,69,140,1) 97%);
+}

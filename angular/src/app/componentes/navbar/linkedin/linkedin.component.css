@@ -1,0 +1,24 @@
+/* iconos de redes sociales en la navbar */
+.list-group-item a{
+    color: #F5E8C7;
+}
+.list-group-item {
+    color:#F5E8C7;
+    background-color:transparent;
+}
+/*reaccion de linkedin, cursor*/
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+    color: rgb(148, 148, 236);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+/*reaccion de agrandar los iconos*/
+a.list-group-item.list-group-item-action:hover{
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+/*reaccion de los iconos, fondo*/
+.list-group-item:hover {
+    background-color: #FFF5EB;
+}
