@@ -30,6 +30,11 @@ import { ImgcertificadoComponent } from './componentes/educacion/imgcertificado/
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { HabilidadComponent } from './componentes/habilidades/habilidad/habilidad.component';
 import { PorcentajeComponent } from './componentes/habilidades/porcentaje/porcentaje.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { TituloproyectoComponent } from './componentes/proyectos/tituloproyecto/tituloproyecto.component';
+import { ImgproyectoComponent } from './componentes/proyectos/imgproyecto/imgproyecto.component';
+import { DetalleproyectoComponent } from './componentes/proyectos/detalleproyecto/detalleproyecto.component';
+import { UrlproyectoComponent } from './componentes/proyectos/urlproyecto/urlproyecto.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +65,12 @@ import { PorcentajeComponent } from './componentes/habilidades/porcentaje/porcen
     ImgcertificadoComponent,
     HabilidadesComponent,
     HabilidadComponent,
-    PorcentajeComponent
+    PorcentajeComponent,
+    ProyectosComponent,
+    TituloproyectoComponent,
+    ImgproyectoComponent,
+    DetalleproyectoComponent,
+    UrlproyectoComponent
   ],
   imports: [
     BrowserModule,
