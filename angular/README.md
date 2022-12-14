@@ -20,7 +20,9 @@
 *PERFIL = nombreperfil - imgperfil
 *PRESENTACION = textopresent
 *EXPERIENCIA = descripuesto 1y2 - logoempresa 1y2
-*EDUCACION
+
+### v1.01 14/12/22
+*EDUCACION = titulocertificado - imgcertificado
 *HABILIDADES
 *PROYECTOS
 *FOOTER
