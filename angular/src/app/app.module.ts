@@ -27,6 +27,9 @@ import { Logoempresa2Component } from './componentes/experiencia/logoempresa2/lo
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { TitulocertificadoComponent } from './componentes/educacion/titulocertificado/titulocertificado.component';
 import { ImgcertificadoComponent } from './componentes/educacion/imgcertificado/imgcertificado.component';
+import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
+import { HabilidadComponent } from './componentes/habilidades/habilidad/habilidad.component';
+import { PorcentajeComponent } from './componentes/habilidades/porcentaje/porcentaje.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,10 @@ import { ImgcertificadoComponent } from './componentes/educacion/imgcertificado/
     Logoempresa2Component,
     EducacionComponent,
     TitulocertificadoComponent,
-    ImgcertificadoComponent
+    ImgcertificadoComponent,
+    HabilidadesComponent,
+    HabilidadComponent,
+    PorcentajeComponent
   ],
   imports: [
     BrowserModule,

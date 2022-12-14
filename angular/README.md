@@ -23,7 +23,7 @@
 
 ### v1.01 14/12/22
 *EDUCACION = titulocertificado - imgcertificado
-*HABILIDADES
+*HABILIDADES = habilidad - porcentaje
 *PROYECTOS
 *FOOTER
 *EXTRA
