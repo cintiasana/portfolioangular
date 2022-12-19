@@ -35,6 +35,10 @@
 *ERROR = pagina en caso de error
 *LOGIN = iniciar sesion
 *REGISTRO = crear cuenta
-*DASHBOARD
+
+### nueva rama v1.03 19/12/22
+*DASHBOARD = pagina de edicion
+-menu vertical = menuvertical
+-editar navbar = editnavbar
 
 

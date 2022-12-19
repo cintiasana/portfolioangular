@@ -41,6 +41,9 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { DashboardComponent } from './componentes/dashboard/dashboard.component';
+import { MenuverticalComponent } from './componentes/dashboard/menuvertical/menuvertical.component';
+import { EditnavbarComponent } from './componentes/dashboard/editnavbar/editnavbar.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +85,10 @@ import { RegistroComponent } from './componentes/registro/registro.component';
     ContactoComponent,
     ErrorComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    DashboardComponent,
+    MenuverticalComponent,
+    EditnavbarComponent
   ],
   imports: [
     BrowserModule,

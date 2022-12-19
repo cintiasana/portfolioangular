@@ -1,0 +1,65 @@
+<app-navbar></app-navbar>
+
+<!-- barra de navegacion vertical -->
+<div class="row">
+    <div class="col-2 container-fluid">
+        <app-menuvertical></app-menuvertical>
+    </div>
+<!--lista vertical para editar -->
+    <div class="col-10">
+<!--formulario // iconos // navbar // vertical-->
+        <div class="tab-content" id="nav-tabContent">
+<!--formulario para editar redes sociales-->
+            <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+                <div class="col-10">
+                    <app-editnavbar></app-editnavbar>
+                </div>
+            </div>
+<!--formulario para editar la imagen del banner-->
+            <div class="tab-pane fade" id="list-banner" role="tabpanel" aria-labelledby="list-banner-list">
+                <div class="col-10">
+                    <app-editarportada></app-editarportada>
+                </div>
+            </div>
+<!--formulario para editar perfil-->
+            <div class="tab-pane fade" id="list-perfil" role="tabpanel" aria-labelledby="list-perfil-list">
+                <div class="col-10">
+                    <app-editarperfil></app-editarperfil>
+                </div>
+            </div>
+<!--formulario para editar informacion-->
+            <div class="tab-pane fade" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+                <div class="col-10">
+                    <app-editarinformacion></app-editarinformacion>
+                </div>
+            </div>
+<!--formulario para editar experiencia-->
+            <div class="tab-pane fade" id="list-experiencia" role="tabpanel" aria-labelledby="list-experiencia-list">
+                <div class="col-10">
+                    <app-editarexperiencia></app-editarexperiencia>
+                </div>
+            </div>
+<!--formulario para editar educacion-->
+            <div class="tab-pane fade" id="list-educacion" role="tabpanel" aria-labelledby="list-educacion-list">
+                <div class="col-10">
+                    <app-editareducacion></app-editareducacion>
+                </div>
+            </div>
+<!--formulario para editar habilidades-->
+            <div class="tab-pane fade" id="list-habilidades" role="tabpanel" aria-labelledby="list-habilidades-list">
+                <div class="col-10 ">
+                    <app-editarhabilidades></app-editarhabilidades>
+                </div>
+            </div>
+<!--formulario para editar proyectos-->
+            <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+                <div class="col-10">
+                    <app-editarproyectos></app-editarproyectos>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-extra></app-extra>    
+
+<app-footer></app-footer>
