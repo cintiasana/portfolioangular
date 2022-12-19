@@ -44,6 +44,9 @@ import { RegistroComponent } from './componentes/registro/registro.component';
 import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 import { MenuverticalComponent } from './componentes/dashboard/menuvertical/menuvertical.component';
 import { EditnavbarComponent } from './componentes/dashboard/editnavbar/editnavbar.component';
+import { EditportadaComponent } from './componentes/dashboard/editportada/editportada.component';
+import { EditperfilComponent } from './componentes/dashboard/editperfil/editperfil.component';
+import { EditinfoComponent } from './componentes/dashboard/editinfo/editinfo.component';
 
 @NgModule({
   declarations: [
@@ -88,7 +91,10 @@ import { EditnavbarComponent } from './componentes/dashboard/editnavbar/editnavb
     RegistroComponent,
     DashboardComponent,
     MenuverticalComponent,
-    EditnavbarComponent
+    EditnavbarComponent,
+    EditportadaComponent,
+    EditperfilComponent,
+    EditinfoComponent
   ],
   imports: [
     BrowserModule,

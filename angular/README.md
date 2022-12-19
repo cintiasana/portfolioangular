@@ -41,4 +41,7 @@
 -menu vertical = menuvertical
 -editar navbar = editnavbar
 
+### nueva rama v1.04 19/12/22
+-editar portada = editportada
+
 
