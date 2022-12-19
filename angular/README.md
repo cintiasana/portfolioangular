@@ -55,6 +55,7 @@
 ### nueva rama v1.06 19/12/22
 *finalizamos los componentes
 *agregar routing = crear las rutas para las paginas
+*cambiar los href por routerLink en los comonentes de cada pagina
 
 
 
