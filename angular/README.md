@@ -52,5 +52,9 @@
 -editar habilidades = edithabilidades
 -editar proyectos = editproyectos
 
+### nueva rama v1.06 19/12/22
+*finalizamos los componentes
+*agregar routing = crear las rutas para las paginas
+
 
 
