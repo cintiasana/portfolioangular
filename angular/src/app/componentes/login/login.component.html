@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+<!-- seccion de formulario para loguearse-->
+<section class="login">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+<!--columna vacia-->
+            </div>
+            <div class="col-6 form-login">
+                <div class="modal-body">
+                    <h1 class="title-form text-center my-3">Iniciar Sesión.</h1>
+                    <h6 class="text-center">Ingresa tu usuario y contraseña para iniciar sección!</h6>
+<!-- formulario para ingresar usuario y contraseña -->
+                    <form>
+                        <div class="my-3">
+                            <label for="usuarioEmail" class="form-label">Ingresa Email:</label>
+                            <input type="email" class="form-control" id="usuarioEmail" aria-describedby="emailHelp" placeholder="Ingresa tu usuario nombre@ejemplo.com" name="usuarioEmail" required>
+                            <div id="emailHelp" class="form-text text-center">Nunca compartiremos tu información con nadie.</div>
+                        </div>
+                        <div class="my-3">
+                            <label for="contraseña" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña para iniciar sesión" name="contraseña" required>
+                        </div>
+                    </form>
+<!-- Fin formulario de ingreso de usuario y contraseña -->
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary my-5">Ingresar</button>
+                </div>
+                <small class="text-center">Si no tenés cuenta <a href="./registro.html">registráte</a></small>
+            </div>
+            <div class="col-3">
+<!--columna vacia-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fin de seccion del formulario de login -->
+<app-extra></app-extra>
+<app-footer></app-footer>

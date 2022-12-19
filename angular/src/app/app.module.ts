@@ -39,6 +39,8 @@ import { ExtraComponent } from './componentes/extra/extra.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { ErrorComponent } from './componentes/error/error.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +80,9 @@ import { ErrorComponent } from './componentes/error/error.component';
     ExtraComponent,
     FooterComponent,
     ContactoComponent,
-    ErrorComponent
+    ErrorComponent,
+    LoginComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,

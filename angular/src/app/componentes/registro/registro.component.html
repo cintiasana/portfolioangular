@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+<!--seccion para crear cuenta-->
+<section class="login">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+<!--columna vacia-->
+            </div>
+            <div class="col-6 form-login">
+                <h1 class="title-form text-center my-3">Crear Cuenta.</h1>
+                <h6 class="text-center">Completa el formulario para crear una cuenta!</h6>
+                <div class="modal-body">
+                    <form>
+<!--formulario para registrarse  -->
+                        <div class="my-3">
+                            <label for="crearUsuarioEmail" class="form-label">Crear Usuario:</label>
+                            <input type="email" class="form-control" id="crearUsuarioEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" name="crearUsuarioEmail" required >
+                            <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie.</div>
+                        </div>
+                        <div class="mb-y">
+                            <label for="crearContraseña" class="form-label"> Crear Contraseña:</label>
+                            <input type="password" class="form-control" id="crearContraseña" placeholder="Ingrese una contraseña" name="crearContraseña" required >
+                        </div>
+                    </form>
+<!-- fin de formulario para regitrarse -->
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary my-5">Registrarme</button>
+                </div>
+                <small>Si ya tenés cuenta <a routerLink="/login" >Ingresá acá</a></small>
+            </div>
+            <div class="col-3">
+<!--columna vacia-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fin de seccion para crear cuenta -->
+
+<app-extra></app-extra>
+<app-footer></app-footer>

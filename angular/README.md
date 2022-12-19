@@ -29,8 +29,12 @@
 ### v1.01 19/12/22
 *EXTRA = para dar espacios
 *FOOTER = pie de pagina final
+
+### nueva rama v1.02 19/12/22
 *CONTACTO = pagina con formulario de contacto
 *ERROR = pagina en caso de error
+*LOGIN = iniciar sesion
+*REGISTRO = crear cuenta
 *DASHBOARD
-*USUARIOS
+
 
