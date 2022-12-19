@@ -37,6 +37,8 @@ import { DetalleproyectoComponent } from './componentes/proyectos/detalleproyect
 import { UrlproyectoComponent } from './componentes/proyectos/urlproyecto/urlproyecto.component';
 import { ExtraComponent } from './componentes/extra/extra.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { ErrorComponent } from './componentes/error/error.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +76,9 @@ import { FooterComponent } from './componentes/footer/footer.component';
     DetalleproyectoComponent,
     UrlproyectoComponent,
     ExtraComponent,
-    FooterComponent
+    FooterComponent,
+    ContactoComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<!-- inicio pagina de contacto -->
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+<!-- columna vacia -->
+        </div>
+        <div class="col-6">
+            <h1 class="title-contacto my-3 text-center">Contacto.</h1>
+            <h6 class="text-center">Completa el siguiente formulario para más información!</h6>
+            <div class="modal-body">
+                <form>
+    <!--formulario para contacto  -->
+                    <div class="my-4">
+                        <label for="contactoNombre" class="form-label"> Nombre y apellido:</label>
+                        <input type="text" class="form-control" id="contactoNombre" placeholder="ingresa tu nombre" name="contactoNombre">
+                    </div>
+                    <div class="my-5">
+                        <label for="contactoEmail" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="contactoEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" name="contactoEmail" required>
+                        <div id="emailHelp" class="form-text text-center">Nunca compartiremos tu información con nadie.</div>
+                    </div>
+                </form>
+    <!-- fin de formulario de contacto -->
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary by-5">Contactar</button>
+            </div>
+        </div>
+        </div>
+        <div class="col-3">
+<!-- columna vacia -->
+        </div>
+</div>
+<!-- fin pagina de contacto -->
+
+<app-extra></app-extra>
+<app-footer></app-footer>

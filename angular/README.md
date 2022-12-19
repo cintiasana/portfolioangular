@@ -29,8 +29,8 @@
 ### v1.01 19/12/22
 *EXTRA = para dar espacios
 *FOOTER = pie de pagina final
+*CONTACTO = pagina con formulario de contacto
+*ERROR = pagina en caso de error
 *DASHBOARD
 *USUARIOS
-*CONTACTO
-*ERROR
 

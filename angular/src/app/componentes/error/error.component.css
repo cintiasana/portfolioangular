@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 600%;
+    font-weight: 800;
+    color: #9A1663;
+    margin-top: 2%;
+    text-align: center;
+}
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    font-weight: 300;
+    text-align: center;
+}
+img {
+    margin-top: 5%;
+    margin-left: 40%;
+}
