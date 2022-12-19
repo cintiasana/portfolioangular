@@ -25,8 +25,12 @@
 *EDUCACION = titulocertificado - imgcertificado
 *HABILIDADES = habilidad - porcentaje
 *PROYECTOS = tituloproyecto - imgproyecto - detalleproyecto - urlproyecto
-*FOOTER
-*EXTRA
+
+### v1.01 19/12/22
+*EXTRA = para dar espacios
+*FOOTER = pie de pagina final
 *DASHBOARD
 *USUARIOS
+*CONTACTO
+*ERROR
 

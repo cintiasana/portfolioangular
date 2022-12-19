@@ -1,0 +1,24 @@
+/*==========SECCION FOOTER==========*/
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: #967E76;
+    text-align: center;
+    height: 4.8rem;
+    width: 100%;
+}
+
+/*copyright*/
+footer p {
+    font-size: 13px;
+}
+/*iconos de footer*/
+.list-group-item.footer {
+    background: none;   
+}
+footer div.container.text-center {
+    justify-content: center;
+    display: flex;
+}

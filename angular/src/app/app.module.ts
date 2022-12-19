@@ -35,6 +35,8 @@ import { TituloproyectoComponent } from './componentes/proyectos/tituloproyecto/
 import { ImgproyectoComponent } from './componentes/proyectos/imgproyecto/imgproyecto.component';
 import { DetalleproyectoComponent } from './componentes/proyectos/detalleproyecto/detalleproyecto.component';
 import { UrlproyectoComponent } from './componentes/proyectos/urlproyecto/urlproyecto.component';
+import { ExtraComponent } from './componentes/extra/extra.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +72,9 @@ import { UrlproyectoComponent } from './componentes/proyectos/urlproyecto/urlpro
     TituloproyectoComponent,
     ImgproyectoComponent,
     DetalleproyectoComponent,
-    UrlproyectoComponent
+    UrlproyectoComponent,
+    ExtraComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
