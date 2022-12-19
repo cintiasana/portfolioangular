@@ -47,6 +47,10 @@ import { EditnavbarComponent } from './componentes/dashboard/editnavbar/editnavb
 import { EditportadaComponent } from './componentes/dashboard/editportada/editportada.component';
 import { EditperfilComponent } from './componentes/dashboard/editperfil/editperfil.component';
 import { EditinfoComponent } from './componentes/dashboard/editinfo/editinfo.component';
+import { EditexperienciaComponent } from './componentes/dashboard/editexperiencia/editexperiencia.component';
+import { EditeducacionComponent } from './componentes/dashboard/editeducacion/editeducacion.component';
+import { EdithabilidadesComponent } from './componentes/dashboard/edithabilidades/edithabilidades.component';
+import { EditproyectosComponent } from './componentes/dashboard/editproyectos/editproyectos.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +98,11 @@ import { EditinfoComponent } from './componentes/dashboard/editinfo/editinfo.com
     EditnavbarComponent,
     EditportadaComponent,
     EditperfilComponent,
-    EditinfoComponent
+    EditinfoComponent,
+    EditexperienciaComponent,
+    EditeducacionComponent,
+    EdithabilidadesComponent,
+    EditproyectosComponent
   ],
   imports: [
     BrowserModule,

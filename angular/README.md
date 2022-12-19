@@ -43,5 +43,14 @@
 
 ### nueva rama v1.04 19/12/22
 -editar portada = editportada
+-editar perfil = editperfil
+-editar presentacion = editinfo
+
+### nueva rama v1.05 19/12/22
+-editar experiencia laboral = editexperiencia
+-editar educacion y certificados = editeducacion
+-editar habilidades = edithabilidades
+-editar proyectos = editproyectos
+
 
 
