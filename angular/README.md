@@ -66,6 +66,11 @@
 
 ### nueva rama v1.08 20/12/22
 *crear Json dentro de la carpeta assets en una carpeta aparte
+*crear una carpeta servicio dentro de la carpeta app
+*crear un archivo de servicio
+*vincular servicio con app.module
+*crear metodo en servicio
+
 
 
 
