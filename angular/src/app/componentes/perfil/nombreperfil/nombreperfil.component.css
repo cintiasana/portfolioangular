@@ -7,3 +7,24 @@ h5.title-abaut {
     margin-right: 8rem;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    /*titulo nombre perfil*/
+        h5.title-abaut {
+            font-size: 350%;
+            margin-top: 10%;
+            margin-left: -5%;
+        }
+    }
+
+@media (max-width: 560px) {
+    /*titulo nombre perfil*/
+        h5.title-abaut {
+            font-size: 250%;
+            display: inline-block;
+            width: 400%;
+            justify-content: center;
+            margin-top: -5%;
+            margin-left: -5%;
+        }
+}

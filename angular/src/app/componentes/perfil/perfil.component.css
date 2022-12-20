@@ -6,3 +6,18 @@ section.perfil {
     margin-top: -8%;
     margin-left: 6rem;
 }
+
+@media (max-width: 768px) {
+    /* imagen de perfil */
+        section.perfil {
+            width: 85%;
+        }
+    }
+
+@media (max-width: 560px) {
+    /* imagen de perfil */
+        section.perfil {
+            width: 25%;
+            margin-left: -0.3rem;
+        }
+}

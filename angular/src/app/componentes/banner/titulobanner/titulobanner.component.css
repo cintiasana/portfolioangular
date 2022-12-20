@@ -6,3 +6,20 @@
     color: #FFF5E4;
     margin-top: -20%;
 }
+
+@media (max-width: 768px) {
+    /*titulo h1 del banner*/
+        .title-banner {
+            font-size: 250%;
+        } 
+    }
+
+@media (max-width: 560px) {
+    /*titulo h1 del banner*/
+        .title-banner {
+            font-size: 150%;
+            color: #FFF5E4;
+            flex-direction: row;
+            justify-content: space-between;
+        } 
+    }    

@@ -8,3 +8,19 @@
     box-shadow: 4px 8px 15px 0 rgb(53, 51, 51);
     object-fit: cover;
 }
+
+@media (max-width: 768px) { 
+    /*imagen del banner*/
+        .img-banner {
+            height: 13rem;
+            margin-top: -5%;
+        }
+    }
+
+@media (max-width: 560px) {
+    /*imagen del banner*/
+        .img-banner {
+            height: 10rem;
+            margin-top: -5%;
+        }
+    }    
