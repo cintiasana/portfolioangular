@@ -57,5 +57,11 @@
 *agregar routing = crear las rutas para las paginas
 *cambiar los href por routerLink en los comonentes de cada pagina
 
+### se realizo un merge a la rama master de la v1.06 20/12/22
+
+### nueva rama v1.07
+*agregamos estilos generales al index/css general
+
+
 
 
