@@ -1,0 +1,180 @@
+{
+    "logoNavbar":"../assets/img/APLogo-20-20.png",
+    
+    "linkedin":"https://linkedin.com/in/cintia-sana-34b08b249",
+    "github":"https://github.com/cintiasana",
+    "codepen":"https://codepen.io/cintiasana",
+    
+    "tituloBanner":"Desarrolladora Full Stack developer Jr.",
+    "imgBanner":"../assets/img/banner2.jpg",
+
+    "nombrePerfil": "Cintia Elizabeth Sana.",
+    "imgPerfil":"../img/CintiaS.png",
+
+    "textoPresent":"¡Hola! Mi nombre es Cintia, vivo en la provincia de Córdoba y me gustaria contarles un poquito sobre mí... me considero una persona apasionada por la automatización de procesos. Soy dedicada, detallista y perfeccionista en lo que hago. Me gusta capacitarme he incorporar nuevos conocimientos y compartirlos con mi entorno. Mis expectativas a cumplir son; conocer, aprender habilidades y actitudes que debe poseer un Desarrollador Web Full Stack. Deseo formar parte de proyectos funcionales que superen las expectativas de los clientes de la empresa.",
+
+    "experiecias": [
+        {
+            "id":1,
+            "DescriPuesto":"Actualmente trabajo para la compañia Cencosud S.A. Me desempeño como administrativa y supervisora de sector.",
+            "logoEmp":"../assets/img/Cencosud.png"
+        },
+
+        {
+            "id":2,
+            "DescriPuesto":"En mi tiempo libre colaboro en una organización llamada GoCode, donde ayudamos con el desarrollo de página web a organizaciones sin fines de lucro.",
+            "logoEmp":"../assets/img/GoCode (white).png"
+        }
+    ],
+
+    "educacion":[
+        {
+            "id":1,
+            "tituloCertificado":"Excel básico 2011",
+            "imgCertificado":"../assets/img/Certificados/2011-ExcelBasico.png"
+        },
+
+        
+        {
+            "id":2,
+            "tituloCertificado":"Excel intermedio 2011",
+            "imgCertificado":"../assets/img/Certificados/2011-ExcelIntermedio.png"
+        },
+
+        {
+            "id":3,
+            "tituloCertificado":"Indicadores en Gestión retail 2016",
+            "imgCertificado":"../assets/img/Certificados/2016-IndicadoresEnGestionRetail.png"
+        },
+
+        {
+            "id":4,
+            "tituloCertificado":"Mandatario registral de Automotores y Créditos Prendarios 2016",
+            "imgCertificado":"../assets/img/Certificados/2016-Mandatario.png"
+        },
+
+        {
+            "id":5,
+            "tituloCertificado":"Escuela de Carnes 2018",
+            "imgCertificado":"../assets/img/Certificados/2018-Escuela DeCarnes.png"
+        },
+
+        {
+            "id":6,
+            "tituloCertificado":"Mecanica Básica del Automotor 2022",
+            "imgCertificado":"../assets/img/Certificados/2022-MecanicaBasicaDelAutomotor.png"
+        },
+
+        {
+            "id":7,
+            "tituloCertificado":"Introducción al lenguaje de Programación 2022",
+            "imgCertificado":"../assets/img/Certificados/2022-IntroduccionAlLenguajeDeProgramacion.png"
+        },
+
+        {
+            "id":8,
+            "tituloCertificado":"Argentina Programa: Se Programar 2022",
+            "imgCertificado":"../assets/img/Certificados/2022-SeProgramar.png"
+        },
+
+        {
+            "id":9,
+            "tituloCertificado":"Curso de Git/GitHub 2022",
+            "imgCertificado":"../assets/img/Certificados/2022-Git-GitHub.png"
+        }
+    ],
+
+    "habilidades":[
+        {
+            "id":1,
+            "habilidad":"Git-GitHub",
+            "porcentaje":95
+        },
+
+        {
+            "id":2,
+            "habilidad":"HTML 5",
+            "porcentaje":90
+        },
+
+        {
+            "id":3,
+            "habilidad":"CSS 3",
+            "porcentaje":75
+        },
+
+        {
+            "id":4,
+            "habilidad":"JavaScript",
+            "porcentaje":45
+        },
+
+        {
+            "id":5,
+            "habilidad":"TypeScript",
+            "porcentaje":25
+        },
+
+        {
+            "id":6,
+            "habilidad":"Angular",
+            "porcentaje":60
+        },
+
+        {
+            "id":7,
+            "habilidad":"Java",
+            "porcentaje":25
+        },
+
+        {
+            "id":8,
+            "habilidad":"Python",
+            "porcentaje":55
+        },
+
+        {
+            "id":9,
+            "habilidad":"Trabajo en Equipo",
+            "porcentaje":85
+        },
+
+        {
+            "id":10,
+            "habilidad":"Responzabilidad",
+            "porcentaje":90
+        },
+
+        {
+            "id":11,
+            "habilidad":"Organización",
+            "porcentaje":80
+        }
+    ],
+
+    "proyectos":[
+        {
+            "id":1,
+            "tituloProyecto":"Aprendiendo a Programar.",
+            "imgProyecto":"../assets/img/banner3.jpg",
+            "detalleProyecto":"Esta Página sirve de guia para dar los primeros pasos en la Programación.",
+            "urlProyecto":"https://cintiasana.github.io/inbox.html"
+        },
+
+        {
+            "id":2,
+            "tituloProyecto":"Excel.",
+            "imgProyecto":"../assets/img/Excel.png",
+            "detalleProyecto":"Esta Página contiene material para aprender Excel.",
+            "urlProyecto":"https://cintiasana.github.io/Excel/"
+        },
+
+        {
+            "id":3,
+            "tituloProyecto":"GoCode.",
+            "imgProyecto":"../assets/img/GoCode (white).png",
+            "detalleProyecto":"Nos encargamos de la creación de sitios web para organizaciones sin fines de lucro.",
+            "urlProyecto":"https://cintiasana.github.io/inicio-gocode-v1.4/"
+        }
+    ]
+}

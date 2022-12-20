@@ -64,6 +64,10 @@
 *se eliminaron ramas anteriores
 *se agregaron medias queries
 
+### nueva rama v1.08 20/12/22
+*crear Json dentro de la carpeta assets en una carpeta aparte
+
+
 
 
 
