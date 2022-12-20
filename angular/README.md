@@ -59,8 +59,12 @@
 
 ### se realizo un merge a la rama master de la v1.06 20/12/22
 
-### nueva rama v1.07
+### nueva rama v1.07 20/12/22
 *agregamos estilos generales al index/css general
+*se eliminaron ramas anteriores
+*se agregaron medias queries
+
+
 
 
 
