@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+/* iconos de redes sociales en la navbar */
+.list-group-item a{
+    color: #F5E8C7;
+}
+.list-group-item {
+    color:#F5E8C7;
+    background-color:transparent;
+}
+/*reaccion de agrandar los iconos*/
+a.list-group-item.list-group-item-action:hover{
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+/*reaccion de los iconos, fondo*/
+.list-group-item:hover {
+    background-color: #FFF5EB;
+}
+
+/* color de fondo */
+body {
+    background-color: #FFE1E1;
+    background-image: url(/assets/img/fondo.jpg);
+}
+/* titulos de las secciones */
+.tituloSeccion {
+    font-family: 'Dancing Script', cursive;
+    font-size: 250%;
+    font-weight: 600;
+    color: #9A1663;
+}
+.texto {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    font-weight: 300;
+}
+/*botones de bootstrap: primary-danger-info*/
+.btn-primary {
+    background: #AF7AB3;
+    font-size: 13px;
+}
+
+.btn-info {
+    background: #AF7AB3;
+    font-size: 13px;
+    color: white;
+}
+
+.btn-danger {
+    background: #AF7AB3;
+    font-size: 13px;
+}
+
+/*botones hover*/
+.btn-primary:hover {
+
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.16);
+}
+.btn-info:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.16);
+}
+
+.btn-danger:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.16);
+}
