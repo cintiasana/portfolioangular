@@ -11,7 +11,6 @@ export class CodepenComponent implements OnInit{
 //declaramos los tipos de datos a traer
     //dato simple
     codepen: string = '';
-https: any;
 
 //en el constructor: "datos" es un alias "DatosService" es el nombre del servicio
   constructor(private datos: DatosService) {}
