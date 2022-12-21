@@ -77,6 +77,7 @@
 =codepen <<dato simple>>
 =github <<dato simple>>
 =linkedin <<dato simple>>
+=logoNavbar <<dato simple>>
 
 
 
