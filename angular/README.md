@@ -73,8 +73,10 @@
 
 ### nueva rama v1.09 21/12/22
 *comenzar a trabajar con servicio en cada componente
--navbar
-
+-NAVBAR 
+=codepen <<dato simple>>
+=github <<dato simple>>
+=linkedin <<dato simple>>
 
 
 
