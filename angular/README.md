@@ -83,6 +83,11 @@
 =tituloBanner <<dato simple>>
 =imgBanner <<dato simple>>
 
+-PERFIL
+=nombrePerfil <<dato simple>>
+=imgPerfil <<dato simple>>
+
+
 
 
 
