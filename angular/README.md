@@ -71,6 +71,10 @@
 *vincular servicio con app.module
 *crear metodo en servicio
 
+### nueva rama v1.09 21/12/22
+*comenzar a trabajar con servicio en cada componente
+-navbar
+
 
 
 
