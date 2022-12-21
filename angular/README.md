@@ -79,6 +79,11 @@
 =linkedin <<dato simple>>
 =logoNavbar <<dato simple>>
 
+-BANNER
+=tituloBanner <<dato simple>>
+=imgBanner <<dato simple>>
+
+
 
 
 
