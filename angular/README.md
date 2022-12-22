@@ -102,7 +102,15 @@
 
 -HABILIDADES <<ARRAY>>
 =habilidad
-=porcentaje
+=porcentaje // falta acomodar los porcentajes en la barra de color //
+
+-PROYECTOS <<ARRAY>>
+=tituloProyecto
+=imgProyecto
+=detalleProyecto
+=urlProyecto
+
+
 
 
 

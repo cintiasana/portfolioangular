@@ -23,13 +23,7 @@ import { TextopresentComponent } from './componentes/presentacion/textopresent/t
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
-import { HabilidadComponent } from './componentes/habilidades/habilidad/habilidad.component';
-import { PorcentajeComponent } from './componentes/habilidades/porcentaje/porcentaje.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { TituloproyectoComponent } from './componentes/proyectos/tituloproyecto/tituloproyecto.component';
-import { ImgproyectoComponent } from './componentes/proyectos/imgproyecto/imgproyecto.component';
-import { DetalleproyectoComponent } from './componentes/proyectos/detalleproyecto/detalleproyecto.component';
-import { UrlproyectoComponent } from './componentes/proyectos/urlproyecto/urlproyecto.component';
 import { ExtraComponent } from './componentes/extra/extra.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
@@ -69,13 +63,7 @@ import { EditproyectosComponent } from './componentes/dashboard/editproyectos/ed
     ExperienciaComponent,
     EducacionComponent,
     HabilidadesComponent,
-    HabilidadComponent,
-    PorcentajeComponent,
     ProyectosComponent,
-    TituloproyectoComponent,
-    ImgproyectoComponent,
-    DetalleproyectoComponent,
-    UrlproyectoComponent,
     ExtraComponent,
     FooterComponent,
     ContactoComponent,

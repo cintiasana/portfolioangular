@@ -4,47 +4,21 @@
 <!-- titulo de seccion proyectos  -->
         <h4 class="tituloSeccion">Proyectos</h4>
         <div class="row mt-5">
-            <div class="col">
+            <div *ngFor="let proyecto of proyectos" class="col">
 <!-- tarjeta de proyecto 1 (aprendiendo a programar) -->
                 <div class="card tarjeta" style="width: 18rem;">
-                    <app-imgproyecto></app-imgproyecto>
+                    <img [src]="proyecto.imgProyecto" class="card-img-top" alt="proyecto">
                     <div class="card-body proyecto">
 <!-- titulo de proyecto 1 -->
-                        <app-tituloproyecto></app-tituloproyecto>
+                        <h5 class="card-title">{{proyecto.tituloProyecto}}</h5>
 <!-- descripcion de proyecto 1 -->
-                        <app-detalleproyecto></app-detalleproyecto>
+                        <p class="card-text">{{proyecto.detalleProyecto}}</p>
 <!-- enlace a la pagina de proyecto 1 -->
-                        <app-urlproyecto></app-urlproyecto>
+                        <a [href]="proyecto.urlProyecto" target="_blank" class="btn btn-primary">Ir a Proyecto</a>
                     </div>
                 </div>
             </div>
             <div class="col">
-<!-- tarjeta de proyecto 2 (excel) -->
-                <div class="card tarjeta" style="width: 18rem;">
-                    <img src="./assets/img/Excel.png" class="card-img-top" alt="Excel">
-                    <div class="card-body proyecto">
-<!-- titulo de proyecto 2 -->
-                        <h5 class="card-title">Excel.</h5>
-<!-- descripcion de proyecto 2 -->
-                        <p class="card-text">Esta Página contiene material para aprender Excel.</p>
-<!-- enlace a la pagina de proyecto 2 -->
-                        <a href="https://cintiasana.github.io/Excel/" target="_blank" class="btn btn-primary">Ir a Proyecto</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-<!-- tarjeta de proyecto 3 (gocode) -->
-                <div class="card tarjeta" style="width: 18rem;">
-                    <img src="./assets/img/GoCode (white).png" class="card-img-top" alt="Excel">
-                    <div class="card-body proyecto">
-<!-- titulo de proyecto 3 -->
-                        <h5 class="card-title">GoCode.</h5>
-<!-- descripcion de proyecto 3 -->
-                        <p class="card-text">Nos encargamos de la creación de sitios web para organizaciones sin fines de lucro..</p>
-<!-- enlace a la pagina de proyecto 3 -->
-                        <a href="https://cintiasana.github.io/inicio-gocode-v1.4/" target="_blank" class="btn btn-primary">Ir a Proyecto</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

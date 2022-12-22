@@ -1,5 +1,12 @@
 /*================ seccion proyectos ===============*/
 /*tarjetas*/
+p.card-text {
+    color: #6F38C5;
+}
+h5.card-title {
+    color: #5C2E7E;
+}
+
 .card {
     --bs-card-bg: #FFE1E1;
 }
