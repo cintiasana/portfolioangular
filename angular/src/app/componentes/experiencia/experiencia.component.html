@@ -1,32 +1,18 @@
 <!--comienzo de seccion de experiencia laboral-->
 <section class="experiencia my-5">
     <div class="container-fluid text-center">
-        <div class="row">
+        <div *ngFor="let experiencia of experiencias" class="row">
             <div class="col-12 col-sm-12 col-md-3">
 <!-- titulo de seccion experiencia laboral -->
                 <h4 class="tituloSeccion">Experiencia.</h4>
             </div>
             <div class="col-8 col-sm-8 col-md-6 mt-3">
 <!-- descripcion de trabajo #1 -->
-                <app-descripuesto></app-descripuesto>
+                <p class="texto">{{experiencia.descriPuesto}}</p>
             </div>
             <div class="col-4 col-sm-4 col-md-3 mt-3">
 <!-- logo de la empresa de trabajo #1 -->
-                <app-logoempresa></app-logoempresa>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-3">
-<!--columna vacia -->
-            </div>
-            <div class="col-8 col-sm-8 col-md-6 mt-3">
-<!-- descripcion de trabajo #2 -->
-                <app-descripuesto2></app-descripuesto2>
-            </div>
-            <div class="col-4 col-sm-4 col-md-3 mt-3">
-<!-- logo de la empresa de trabajo #2 -->
-                <app-logoempresa2></app-logoempresa2>
+                <img  class="img-fluid logo-exp" [src]="experiencia.logoEmp" alt="logo empresa">
             </div>
         </div>
     </div>
