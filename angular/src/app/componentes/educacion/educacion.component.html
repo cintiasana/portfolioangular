@@ -7,105 +7,15 @@
                 <h4 class="tituloSeccion">Educación.</h4>
             </div>
 
-<!-- certificado 1 (excel basico)-->
-            <div class="col-12 col-sm-12 col-md-3">
+<!-- certificados-->
+            <div *ngFor="let estudio of educacion" class="col-12 col-sm-12 col-md-3">
                 <div class="card" style="width: 18rem;">
-                    <app-imgcertificado></app-imgcertificado>
+                    <img [src]="estudio.imgCertificado" class="card-img-top" alt="excel intermedio">
                 <div class="card-body">
-                    <app-titulocertificado></app-titulocertificado>
+                    <p class="card-text">{{estudio.tituloCertificado}}</p>
                 </div>
                 </div>
             </div>
-
-<!-- certificado 2 (excel intermedio)-->
-            <div class="col-12 col-sm-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/Certificados/2011-ExcelIntermedio.png" class="card-img-top" alt="excel intermedio">
-                    <div class="card-body">
-                        <p class="card-text">Excel intermedio 2011</p>
-                    </div>
-                </div>
-            </div>
-
-<!-- certificado 3 (indicadores en gestion retail)-->
-            <div class="col-12 col-sm-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/img/Certificados/2016-IndicadoresEnGestionRetail.png" class="card-img-top" alt="indicadores en gestion retail">
-                    <div class="card-body">
-                        <p class="card-text">Indicadores en Gestión retail 2016</p>
-                    </div>
-                </div>
-            </div>
-        </div>    
-
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-3">
-    <!-- columna vacia-->
-            </div>
-<!-- certificado 4 (mandatario)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2016-Mandatario.png" class="card-img-top" alt="mandatario">
-                    <div class="card-body">
-                        <p class="card-text">Mandatario registral de Automotores y Créditos Prendarios 2016</p>
-                    </div>
-                    </div>
-                </div>
-    
-<!-- certificado 5 (escuela de carnes)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2018-Escuela DeCarnes.png" class="card-img-top" alt="escuela de carnes">
-                        <div class="card-body">
-                            <p class="card-text">Escuela de Carnes 2018</p>
-                        </div>
-                    </div>
-                </div>
-    
-<!-- certificado 6 (mecanica del automotor)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2022-MecanicaBasicaDelAutomotor.png" class="card-img-top" alt="mecanica">
-                        <div class="card-body">
-                            <p class="card-text">Mecanica Básica del Automotor 2022</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-3">
-    <!-- columna vacia-->
-            </div>
-<!-- certificado 7 (introduccion al lenguaje de programacion)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2022-IntroduccionAlLenguajeDeProgramacion.png" class="card-img-top" alt="introduccion a programacion">
-                    <div class="card-body">
-                        <p class="card-text">Introducción al lenguaje de Programación 2022</p>
-                    </div>
-                    </div>
-                </div>
-    
-<!-- certificado 8 (se programar)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2022-SeProgramar.png" class="card-img-top" alt="se programar">
-                        <div class="card-body">
-                            <p class="card-text">Argentina Programa: Se Programar 2022</p>
-                        </div>
-                    </div>
-                </div>
-    
-<!-- certificado 9 (git/github)-->
-                <div class="col-12 col-sm-12 col-md-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/Certificados/2022-Git-GitHub.png" class="card-img-top" alt="Git-GitHub">
-                        <div class="card-body">
-                            <p class="card-text">Curso de Git/GitHub 2022</p>
-                        </div>
-                    </div>
-                </div>
         </div>
     </div>
 </section>

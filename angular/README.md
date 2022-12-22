@@ -92,6 +92,10 @@
 -PRESENTACION
 =textoPresent <<dato simple>>
 
+-EXPERIENCIA <<ARRAY>>
+
+-EDUCACION <<ARRAY>>
+
 
 
 

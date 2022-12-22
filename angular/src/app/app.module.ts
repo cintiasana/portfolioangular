@@ -22,8 +22,6 @@ import { PresentacionComponent } from './componentes/presentacion/presentacion.c
 import { TextopresentComponent } from './componentes/presentacion/textopresent/textopresent.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
-import { TitulocertificadoComponent } from './componentes/educacion/titulocertificado/titulocertificado.component';
-import { ImgcertificadoComponent } from './componentes/educacion/imgcertificado/imgcertificado.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { HabilidadComponent } from './componentes/habilidades/habilidad/habilidad.component';
 import { PorcentajeComponent } from './componentes/habilidades/porcentaje/porcentaje.component';
@@ -70,8 +68,6 @@ import { EditproyectosComponent } from './componentes/dashboard/editproyectos/ed
     TextopresentComponent,
     ExperienciaComponent,
     EducacionComponent,
-    TitulocertificadoComponent,
-    ImgcertificadoComponent,
     HabilidadesComponent,
     HabilidadComponent,
     PorcentajeComponent,
