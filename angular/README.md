@@ -93,8 +93,16 @@
 =textoPresent <<dato simple>>
 
 -EXPERIENCIA <<ARRAY>>
+=descriPuesto
+=logoEmp
 
 -EDUCACION <<ARRAY>>
+=tituloCertificado
+=imgCertificado
+
+-HABILIDADES <<ARRAY>>
+=habilidad
+=porcentaje
 
 
 
