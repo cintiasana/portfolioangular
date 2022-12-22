@@ -21,10 +21,6 @@ import { ImgperfilComponent } from './componentes/perfil/imgperfil/imgperfil.com
 import { PresentacionComponent } from './componentes/presentacion/presentacion.component';
 import { TextopresentComponent } from './componentes/presentacion/textopresent/textopresent.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
-import { DescripuestoComponent } from './componentes/experiencia/descripuesto/descripuesto.component';
-import { LogoempresaComponent } from './componentes/experiencia/logoempresa/logoempresa.component';
-import { Descripuesto2Component } from './componentes/experiencia/descripuesto2/descripuesto2.component';
-import { Logoempresa2Component } from './componentes/experiencia/logoempresa2/logoempresa2.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { TitulocertificadoComponent } from './componentes/educacion/titulocertificado/titulocertificado.component';
 import { ImgcertificadoComponent } from './componentes/educacion/imgcertificado/imgcertificado.component';
@@ -73,10 +69,6 @@ import { EditproyectosComponent } from './componentes/dashboard/editproyectos/ed
     PresentacionComponent,
     TextopresentComponent,
     ExperienciaComponent,
-    DescripuestoComponent,
-    LogoempresaComponent,
-    Descripuesto2Component,
-    Logoempresa2Component,
     EducacionComponent,
     TitulocertificadoComponent,
     ImgcertificadoComponent,
