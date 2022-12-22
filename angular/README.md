@@ -84,8 +84,13 @@
 =imgBanner <<dato simple>>
 
 -PERFIL
-=nombrePerfil <<dato simple>>
 =imgPerfil <<dato simple>>
+
+### rama v1.09 22/12/22
+=nombrePerfil <<dato simple>>
+
+-PRESENTACION
+=textoPresent <<dato simple>>
 
 
 
