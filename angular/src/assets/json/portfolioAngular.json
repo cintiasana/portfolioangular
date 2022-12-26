@@ -100,55 +100,55 @@
         {
             "id":3,
             "habilidad":"CSS 3",
-            "porcentaje":75
+            "porcentaje":"75"
         },
 
         {
             "id":4,
             "habilidad":"JavaScript",
-            "porcentaje":45
+            "porcentaje":"45"
         },
 
         {
             "id":5,
             "habilidad":"TypeScript",
-            "porcentaje":25
+            "porcentaje":"25"
         },
 
         {
             "id":6,
             "habilidad":"Angular",
-            "porcentaje":60
+            "porcentaje":"60"
         },
 
         {
             "id":7,
             "habilidad":"Java",
-            "porcentaje":25
+            "porcentaje":"25"
         },
 
         {
             "id":8,
             "habilidad":"Python",
-            "porcentaje":55
+            "porcentaje":"55"
         },
 
         {
             "id":9,
             "habilidad":"Trabajo en Equipo",
-            "porcentaje":85
+            "porcentaje":"85"
         },
 
         {
             "id":10,
             "habilidad":"Responzabilidad",
-            "porcentaje":90
+            "porcentaje":"90"
         },
 
         {
             "id":11,
             "habilidad":"Organización",
-            "porcentaje":80
+            "porcentaje":"80"
         }
     ],
 

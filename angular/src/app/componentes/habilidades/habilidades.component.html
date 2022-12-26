@@ -10,7 +10,7 @@
                 <p>{{nombhabilidad.habilidad}}</p>
 <!-- barra de progreso habilidad  -->
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">{{nombhabilidad.porcentaje}}</div>
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" [style.width.%]="nombhabilidad.porcentaje" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">{{nombhabilidad.porcentaje}}%</div>
                 </div>
                 
             </div>

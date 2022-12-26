@@ -41,6 +41,7 @@ import { EditeducacionComponent } from './componentes/dashboard/editeducacion/ed
 import { EdithabilidadesComponent } from './componentes/dashboard/edithabilidades/edithabilidades.component';
 import { EditproyectosComponent } from './componentes/dashboard/editproyectos/editproyectos.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DatosService } from './componentes/servicios/datos.service';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [],//nombre del servicio puede ir aca
   bootstrap: [AppComponent]
 })
 export class AppModule { }

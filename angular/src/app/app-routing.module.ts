@@ -8,12 +8,11 @@ import { LoginComponent } from './componentes/login/login.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
 
 const routes: Routes = [
-{path:'inicio', component:InicioComponent},
+{path:'', component:InicioComponent},
 {path:'registro', component:RegistroComponent},
 {path:'login', component:LoginComponent},
 {path:'contacto', component:ContactoComponent},
 {path:'dashboard', component:DashboardComponent},
-{path:'', redirectTo: '/inicio', pathMatch: 'full'},
 {path:'**', component:ErrorComponent}
 
 ];
