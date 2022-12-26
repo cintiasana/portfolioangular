@@ -40,6 +40,7 @@ import { EditexperienciaComponent } from './componentes/dashboard/editexperienci
 import { EditeducacionComponent } from './componentes/dashboard/editeducacion/editeducacion.component';
 import { EdithabilidadesComponent } from './componentes/dashboard/edithabilidades/edithabilidades.component';
 import { EditproyectosComponent } from './componentes/dashboard/editproyectos/editproyectos.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,9 @@ import { EditproyectosComponent } from './componentes/dashboard/editproyectos/ed
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -110,6 +110,8 @@
 =detalleProyecto
 =urlProyecto
 
+### nueva rama v1.10 26/12/22
+*importamos en app.module.ts (general)
 
 
 
