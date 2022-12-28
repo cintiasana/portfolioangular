@@ -121,6 +121,7 @@
 *final del formulario reactivo para "contacto"
 *final del formulario reactivo para "registro"
 *final del formulario reactivo para "login"
+*correccion en el modal de editar educacion
 
 
 
