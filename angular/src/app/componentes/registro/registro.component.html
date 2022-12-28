@@ -9,17 +9,34 @@
             <div class="col-6 form-login">
                 <h1 class="title-form text-center my-3">Crear Cuenta.</h1>
                 <h6 class="text-center">Completa el formulario para crear una cuenta!</h6>
-                <form>
+                <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                 <div class="modal-body">
 <!--formulario para registrarse  -->
                         <div class="my-3">
                             <label for="crearUsuarioEmail" class="form-label">Crear Usuario:</label>
-                            <input type="email" class="form-control" id="crearUsuarioEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" name="crearUsuarioEmail" required >
+                            <input type="email" class="form-control" id="crearUsuarioEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" formControlName="crearUsuarioEmail" required >
                             <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie.</div>
                         </div>
+<!-- gracias al getter que configuramos en el controlardor  -->
+                        <div *ngIf="CrearUsuarioEmail?.errors && CrearUsuarioEmail?.touched">
+                            <p *ngIf="CrearUsuarioEmail?.hasError('required')" class="error">
+                                <strong> --El usuario es requerido.-- </strong>
+                            </p>
+                            <p *ngIf="CrearUsuarioEmail?.hasError('email')" class="error">
+                                <strong> --El formato del email debe ser válido..-- </strong>
+                            </p>
+                        </div>
                         <div class="mb-y">
-                            <label for="crearContraseña" class="form-label"> Crear Contraseña:</label>
-                            <input type="password" class="form-control" id="crearContraseña" placeholder="Ingrese una contraseña" name="crearContraseña" required >
+                            <label for="crearContrasena" class="form-label"> Crear Contraseña:</label>
+                            <input type="password" class="form-control" id="crearContrasena" placeholder="Ingrese una contraseña" formControlName="crearContrasena" required >
+                        </div>
+                        <div *ngIf="CrearContrasena?.errors && CrearContrasena?.touched">
+                            <p *ngIf="CrearContrasena?.hasError('required')" class="error">
+                                <strong> --La contraseña es requerida.-- </strong>
+                            </p>
+                            <!-- <p *ngIf="CrearContrasena?.errors?.minlength" class="error">
+                                <strong> --La contraseña debe ser de 8 o más caracteres.-- </strong>
+                            </p> -->
                         </div>
                         <!-- fin de formulario para regitrarse -->
                     </div>

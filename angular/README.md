@@ -117,6 +117,11 @@
 ### rama v1.10 27/12/22
 *dentro del componente "contacto" realizamos el formulario reactivo
 
+### rama v1.10 28/12/22
+*final del formulario reactivo para "contacto"
+*final del formulario reactivo para "registro"
+*final del formulario reactivo para "login"
+
 
 
 
