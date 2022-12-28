@@ -7,19 +7,36 @@
 <!--columna vacia-->
             </div>
             <div class="col-6 form-login">
-                <form>
+                <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                 <div class="modal-body">
                     <h1 class="title-form text-center my-3">Iniciar Sesión.</h1>
                     <h6 class="text-center">Ingresa tu usuario y contraseña para iniciar sección!</h6>
 <!-- formulario para ingresar usuario y contraseña -->
                         <div class="my-3">
                             <label for="usuarioEmail" class="form-label">Ingresa Email:</label>
-                            <input type="email" class="form-control" id="usuarioEmail" aria-describedby="emailHelp" placeholder="Ingresa tu usuario nombre@ejemplo.com" name="usuarioEmail" required>
+                            <input type="email" class="form-control" id="usuarioEmail" aria-describedby="emailHelp" placeholder="Ingresa tu usuario nombre@ejemplo.com" formControlName="usuarioEmail" required>
                             <div id="emailHelp" class="form-text text-center">Nunca compartiremos tu información con nadie.</div>
                         </div>
+<!-- gracias al getter que configuramos en el controlardor  -->
+                        <div *ngIf="UsuarioEmail?.errors && UsuarioEmail?.touched">
+                            <p *ngIf="UsuarioEmail?.hasError('required')" class="error">
+                                <strong> --El usuario es requerido para ingresar.-- </strong>
+                            </p>
+                            <p *ngIf="UsuarioEmail?.hasError('email')" class="error">
+                                <strong> --El formato del email debe ser válido.-- </strong>
+                            </p>
+                        </div>
                         <div class="my-3">
-                            <label for="contraseña" class="form-label">Contraseña:</label>
-                            <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña para iniciar sesión" name="contraseña" required>
+                            <label for="contrasena" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="contrasena" placeholder="Ingresa tu contraseña para iniciar sesión" formControlName="contrasena" required>
+                        </div>
+                        <div *ngIf="Contrasena?.errors && Contrasena?.touched">
+                            <p *ngIf="Contrasena?.hasError('required')" class="error">
+                                <strong> --La contraseña es requerida.-- </strong>
+                            </p>
+                            <!-- <p *ngIf="CrearContrasena?.errors?.minlength" class="error">
+                                <strong> --La contraseña debe ser de 8 o más caracteres.-- </strong>
+                            </p> -->
                         </div>
                         <!-- Fin formulario de ingreso de usuario y contraseña -->
                     </div>
