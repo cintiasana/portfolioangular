@@ -8,17 +8,33 @@
         <div class="col-6">
             <h1 class="title-contacto my-3 text-center">Contacto.</h1>
             <h6 class="text-center">Completa el siguiente formulario para más información!</h6>
-            <form>
+<!-- agregamos dentro de la etiqueta form esos atributos -->
+            <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+
             <div class="modal-body">
     <!--formulario para contacto  -->
                     <div class="my-4">
                         <label for="contactoNombre" class="form-label"> Nombre y apellido:</label>
-                        <input type="text" class="form-control" id="contactoNombre" placeholder="ingresa tu nombre" name="contactoNombre">
+                        <input type="text" class="form-control" id="contactoNombre" placeholder="ingresa tu nombre" formControlName="contactoNombre">
+                    </div>
+<!-- gracias al getter que configuramos en el controlardor  -->
+                    <div *ngIf="ContactoNombre?.errors && ContactoNombre?.touched">
+                        <p *ngIf="ContactoNombre?.hasError('required')" class="error">
+                            <strong> --El nombre es requerido.-- </strong>
+                        </p>
                     </div>
                     <div class="my-5">
                         <label for="contactoEmail" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="contactoEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" name="contactoEmail" required>
+                        <input type="email" class="form-control" id="contactoEmail" placeholder="nombre@ejemplo.com" aria-describedby="emailHelp" formControlName="contactoEmail" required>
                         <div id="emailHelp" class="form-text text-center">Nunca compartiremos tu información con nadie.</div>
+                    </div>
+                    <div *ngIf="ContactoEmail?.errors && ContactoEmail?.touched">
+                        <p *ngIf="ContactoEmail?.hasError('required')" class="error">
+                            <strong> --El email es requerido.-- </strong>
+                        </p>
+                        <p *ngIf="ContactoEmail?.hasError('email')" class="error">
+                            <strong> --El formato del email debe ser válido..-- </strong>
+                        </p>
                     </div>
                     <!-- fin de formulario de contacto -->
                 </div>

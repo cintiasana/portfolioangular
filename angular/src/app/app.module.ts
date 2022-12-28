@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { LogonavbarComponent } from './componentes/navbar/logonavbar/logonavbar.component';
@@ -40,7 +41,7 @@ import { EditexperienciaComponent } from './componentes/dashboard/editexperienci
 import { EditeducacionComponent } from './componentes/dashboard/editeducacion/editeducacion.component';
 import { EdithabilidadesComponent } from './componentes/dashboard/edithabilidades/edithabilidades.component';
 import { EditproyectosComponent } from './componentes/dashboard/editproyectos/editproyectos.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { DatosService } from './componentes/servicios/datos.service';
 
 @NgModule({

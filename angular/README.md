@@ -114,6 +114,9 @@
 *importamos en app.module.ts (general)
 *arreglar las barras de progreso de habilidades
 
+### rama v1.10 27/12/22
+*dentro del componente "contacto" realizamos el formulario reactivo
+
 
 
 
