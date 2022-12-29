@@ -1,72 +1,55 @@
 <!--formulario para editar proyectos-->
 <h4>Editar Proyectos.</h4>
 <!--Inicio formulario proyectos-->  
-                        <form>
-<!-- proyecto 1 -->
+                        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+<!-- proyecto -->
                             <div class="my-3">
-                                <label for="tituloProyectoUno" class="form-label">Titulo de Proyecto n˚1:</label>
-                                <input type="text" class="form-control" id="tituloProyectoUno" aria-describedby="emailHelp" placeholder="Ingrese titulo del Proyecto..." name="tituloProyectoUno">
+                                <label for="tituloProyecto" class="form-label">Titulo de Proyecto:</label>
+                                <input type="text" class="form-control" id="tituloProyecto" aria-describedby="emailHelp" placeholder="Ingrese titulo del Proyecto..." formControlName="tituloProyecto">
                             </div>
+
+                            <div *ngIf="TituloProyecto?.errors && TituloProyecto?.touched">
+                                <p *ngIf="TituloProyecto?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
                             <div class="my-3">
-                                <label for="fotoProyectoUno" class="form-label">Foto de Proyecto n˚1:</label>
-                                <input type="url" class="form-control" id="fotoProyectoUno" placeholder="Ingresar url de la imagen del proyecto..." name="fotoProyectoUno">
+                                <label for="fotoProyecto" class="form-label">Foto de Proyecto:</label>
+                                <input type="url" class="form-control" id="fotoProyecto" placeholder="Ingresar url de la imagen del proyecto..." formControlName="fotoProyecto">
                             </div>
+
+                            <div *ngIf="FotoProyecto?.errors && FotoProyecto?.touched">
+                                <p *ngIf="FotoProyecto?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
                             <div class="my-3">
-                                <label for="urlProyectoUno" class="form-label">URL Proyecto n˚1:</label>
-                                <input type="url" class="form-control" id="urlProyectoUno" aria-describedby="emailHelp" placeholder="Ingrese la url al sitio web del proyecto..." name="urlProyectoUno">
+                                <label for="urlProyecto" class="form-label">URL Proyecto:</label>
+                                <input type="url" class="form-control" id="urlProyecto" aria-describedby="emailHelp" placeholder="Ingrese la url al sitio web del proyecto..." formControlName="urlProyecto">
                             </div>
+
+                            <div *ngIf="UrlProyecto?.errors && UrlProyecto?.touched">
+                                <p *ngIf="UrlProyecto?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
                             <div class="my-3">
-                                <label for="descripcionProyectoUno" class="form-label">Descripción Proyecto n˚1:</label>
-                                <textarea class="form-control" id="descripcionProyectoUno" placeholder="Ingrese una descripción del proyecto..." name="descripcionProyectoUno"></textarea>
+                                <label for="descripcionProyecto" class="form-label">Descripción Proyecto:</label>
+                                <textarea class="form-control" id="descripcionProyecto" placeholder="Ingrese una descripción del proyecto..." formControlName="descripcionProyecto"></textarea>
                             </div>
+
+                            <div *ngIf="DescripcionProyecto?.errors && DescripcionProyecto?.touched">
+                                <p *ngIf="DescripcionProyecto?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
 
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>
                                 <button type="button" class="btn btn-danger">Eliminar</button>
-
-<!-- proyecto 2 -->
-                            <div class="my-3">
-                                <label for="tituloProyectoDos" class="form-label">Titulo de Proyecto n˚2:</label>
-                                <input type="text" class="form-control" id="tituloProyectoDos" aria-describedby="emailHelp" placeholder="Ingrese titulo del Proyecto..." name="tituloProyectoDos">
-                            </div>
-                            <div class="my-3">
-                                <label for="fotoProyectoDos" class="form-label">Foto de Proyecto n˚2:</label>
-                                <input type="url" class="form-control" id="fotoProyectoDos" placeholder="Ingresar url de la imagen del proyecto..." name="fotoProyectoDos">
-                            </div>
-                            <div class="my-3">
-                                <label for="urlProyectoDos" class="form-label">URL Proyecto n˚2:</label>
-                                <input type="url" class="form-control" id="urlProyectoDos" aria-describedby="emailHelp" placeholder="Ingrese la url al sitio web del proyecto..." name="urlProyectoDos">
-                            </div>
-                            <div class="my-3">
-                                <label for="descripcionProyectoDos" class="form-label">Descripción Proyecto n˚2:</label>
-                                <textarea class="form-control" id="descripcionProyectoDos" placeholder="Ingrese una descripción del proyecto..." name="descripcionProyectoDos"></textarea>
-                            </div>
-
-                                <button type="button" class="btn btn-primary">Guardar</button>
-                                <button type="button" class="btn btn-info">Actualizar</button>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
-
-<!-- proyecto 3 -->
-                            <div class="my-3">
-                                <label for="tituloProyectoTres" class="form-label">Titulo de Proyecto n˚3:</label>
-                                <input type="text" class="form-control" id="tituloProyectoTres" aria-describedby="emailHelp" placeholder="Ingrese titulo del Proyecto..." name="tituloProyectoTres">
-                            </div>
-                            <div class="my-3">
-                                <label for="fotoProyectoTres" class="form-label">Foto de Proyecto n˚3:</label>
-                                <input type="url" class="form-control" id="fotoProyectoTres" placeholder="Ingresar url de la imagen del proyecto..." name="fotoProyectoTres">
-                            </div>
-                            <div class="my-3">
-                                <label for="urlProyectoTres" class="form-label">URL Proyecto n˚3:</label>
-                                <input type="url" class="form-control" id="urlProyectoTres" aria-describedby="emailHelp" placeholder="Ingrese la url al sitio web del proyecto..." name="urlProyectoTres">
-                            </div>
-                            <div class="my-3 pb-5">
-                                <label for="descripcionProyectoTres" class="form-label">Descripción Proyecto n˚3:</label>
-                                <textarea class="form-control" id="descripcionProyectoTres" placeholder="Ingrese una descripción del proyecto..." name="descripcionProyectoTres"></textarea>
-                            </div>
-
-                                <button type="button" class="btn btn-primary">Guardar</button>
-                                <button type="button" class="btn btn-info">Actualizar</button>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
-
                         </form>
 <!-- fin formulario para editar proyectos -->
