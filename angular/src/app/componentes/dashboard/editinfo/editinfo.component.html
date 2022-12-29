@@ -1,13 +1,19 @@
 <h4>Editar Presentación.</h4>
 <!--Inicio formulario para editar presentacion/sobre mi-->  
-                        <form>
+                        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                             <div class="my-3">
                                 <label for="infoPresentacion" class="form-label">Descripción sobre mí:</label>
-                                <textarea class="form-control" id="infoPresentacion" placeholder="Ingresa tu presentación..." name="infoPresentacion"></textarea>
+                                <textarea class="form-control" id="infoPresentacion" placeholder="Ingresa tu presentación..." formControlName="infoPresentacion"></textarea>
                             </div>
+
+                            <div *ngIf="InfoPresentacion?.errors && InfoPresentacion?.touched">
+                                <p *ngIf="InfoPresentacion?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>
                                 <button type="button" class="btn btn-danger">Eliminar</button>
-
                         </form>
 <!--fin formulario para editar presentacion/sobre mi-->

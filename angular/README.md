@@ -127,7 +127,9 @@
 
 ### rama v1.10 29/12/22
 *continuamos con los formularios reactivos para el dashboard
-=
+=edithabilidades
+=editinfo
+
 
 
 
