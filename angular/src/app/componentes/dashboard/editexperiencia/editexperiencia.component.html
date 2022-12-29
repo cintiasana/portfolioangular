@@ -1,36 +1,32 @@
 <!--formulario para editar experiencia-->
 <h4>Editar Experiencia Laboral.</h4>
 <!--Inicio formulario para editar experiencia-->  
-                        <form>
-<!--trabajo 1-->
+                        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+<!--trabajo -->
                             <div class="my-3">
-                                <label for="trabajoUno" class="form-label">Descripción del Puesto n˚1:</label>
-                                <input type="text" class="form-control" id="trabajoUno" aria-describedby="emailHelp" placeholder="Puesto de trabajo" name="trabajoUno">
+                                <label for="trabajo" class="form-label">Descripción del Puesto n˚1:</label>
+                                <input type="text" class="form-control" id="trabajo" aria-describedby="emailHelp" placeholder="Puesto de trabajo" formControlName="trabajo">
                             </div>
+
+                            <div *ngIf="Trabajo?.errors && Trabajo?.touched">
+                                <p *ngIf="Trabajo?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>
                                 <button type="button" class="btn btn-danger">Eliminar</button>
 
                             <div class="my-3">
-                                <label for="logoTrabajoUno" class="form-label">Logo de Empresa:</label>
-                                <input type="url" class="form-control" id="logoTrabajoUno" placeholder="Ingrese la url del logo de la empresa" name="logoTrabajoUno">
+                                <label for="logoTrabajo" class="form-label">Logo de Empresa:</label>
+                                <input type="url" class="form-control" id="logoTrabajo" placeholder="Ingrese la url del logo de la empresa" formControlName="logoTrabajo">
                             </div>
-                                <button type="button" class="btn btn-primary">Guardar</button>
-                                <button type="button" class="btn btn-info">Actualizar</button>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
 
-<!--trabajo 2-->   
-                            <div class="my-3">
-                                <label for="trabajoDos" class="form-label">Descripción del Puesto n˚2:</label>
-                                <input type="text" class="form-control" id="trabajoDos" aria-describedby="emailHelp" placeholder="Puesto de trabajo" name="trabajoDos">
-                            </div>
-                                <button type="button" class="btn btn-primary">Guardar</button>
-                                <button type="button" class="btn btn-info">Actualizar</button>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
-
-                            <div class="my-3">
-                                <label for="logoTrabajoDos" class="form-label">Logo de Empresa:</label>
-                                <input type="url" class="form-control" id="logoTrabajoDos" placeholder="Ingrese la url del logo de la empresa" name="logoTrabajoDos">
+                            <div *ngIf="LogoTrabajo?.errors && LogoTrabajo?.touched">
+                                <p *ngIf="LogoTrabajo?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
                             </div>
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>

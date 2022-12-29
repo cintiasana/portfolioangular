@@ -125,6 +125,10 @@
 *formularios reactivos para dashboard (controlar mas adelante)
 =editeducacion
 
+### rama v1.10 29/12/22
+*continuamos con los formularios reactivos para el dashboard
+=
+
 
 
 
