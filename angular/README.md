@@ -129,7 +129,7 @@
 *continuamos con los formularios reactivos para el dashboard
 =edithabilidades
 =editinfo
-
+=editnavbar
 
 
 

@@ -1,27 +1,48 @@
 <!--formulario para editar redes sociales-->
 <h4>Editar Redes Sociales.</h4>
 <!--Inicio formulario para editar redes sociales-->  
-        <form>
+        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
             <div class="my-3">
                 <label for="linkedin" class="form-label">LinkedIn</label>
-                <input type="url" class="form-control" id="linkedin" placeholder="Ingresa url a LinkedIn..." name="linkedin">
+                <input type="url" class="form-control" id="linkedin" placeholder="Ingresa url a LinkedIn..." formControlName="linkedin">
             </div>
+
+            <div *ngIf="Linkedin?.errors && Linkedin?.touched">
+                <p *ngIf="Linkedin?.hasError('required')" class="error">
+                    <strong> --Este campo es requerido.-- </strong>
+                </p>
+            </div>
+
                 <button type="button" class="btn btn-primary">Guardar</button>
                 <button type="button" class="btn btn-info">Actualizar</button>
                 <button type="button" class="btn btn-danger">Eliminar</button>
 
             <div class="my-3">
                 <label for="github" class="form-label">GitHub</label>
-                <input type="url" class="form-control" id="github" placeholder="Ingresa url a GitHub..." name="github">
+                <input type="url" class="form-control" id="github" placeholder="Ingresa url a GitHub..." formControlName="github">
             </div>
+
+            <div *ngIf="Github?.errors && Github?.touched">
+                <p *ngIf="Github?.hasError('required')" class="error">
+                    <strong> --Este campo es requerido.-- </strong>
+                </p>
+            </div>
+
                 <button type="button" class="btn btn-primary">Guardar</button>
                 <button type="button" class="btn btn-info">Actualizar</button>
                 <button type="button" class="btn btn-danger">Eliminar</button>
 
             <div class="my-3">
                 <label for="codepen" class="form-label">CodePen</label>
-                <input type="url" class="form-control" id="codepen" placeholder="Ingresa url a CodePen...">
+                <input type="url" class="form-control" id="codepen" placeholder="Ingresa url a CodePen..." formControlName="codepen">
             </div>
+
+            <div *ngIf="Codepen?.errors && Codepen?.touched">
+                <p *ngIf="Codepen?.hasError('required')" class="error">
+                    <strong> --Este campo es requerido.-- </strong>
+                </p>
+            </div>
+
                 <button type="button" class="btn btn-primary">Guardar</button>
                 <button type="button" class="btn btn-info">Actualizar</button>
                 <button type="button" class="btn btn-danger">Eliminar</button>
