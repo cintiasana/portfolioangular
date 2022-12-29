@@ -130,6 +130,8 @@
 =edithabilidades
 =editinfo
 =editnavbar
+=editperfil
+=editportada
 
 
 

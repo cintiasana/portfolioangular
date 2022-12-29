@@ -1,19 +1,33 @@
 <!--formulario para editar la imagen del banner-->
 <h4>Editar Portada.</h4>
 <!--Inicio formulario para editar banner/portada-->  
-        <form>
+        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
             <div class="my-3">
                 <label for="tituloBanner" class="form-label">Titulo de Portada:</label>
-                <input type="text" class="form-control" id="tituloBanner" aria-describedby="emailHelp" placeholder="Ingresa el titulo para la portada..." name="tituloBanner">
+                <input type="text" class="form-control" id="tituloBanner" aria-describedby="emailHelp" placeholder="Ingresa el titulo para la portada..." formControlName="tituloBanner">
             </div>
+
+            <div *ngIf="TituloBanner?.errors && TituloBanner?.touched">
+                <p *ngIf="TituloBanner?.hasError('required')" class="error">
+                    <strong> --Este campo es requerido.-- </strong>
+                </p>
+            </div>
+
                 <button type="button" class="btn btn-primary">Guardar</button>
                 <button type="button" class="btn btn-info">Actualizar</button>
                 <button type="button" class="btn btn-danger">Eliminar</button>
 
             <div class="my-3">
                 <label for="fotoBanner" class="form-label">Foto de Portada:</label>
-                <input type="url" class="form-control" id="fotoBanner" placeholder="Ingresa la url a la imagen de portada..." name="fotoBanner">
+                <input type="url" class="form-control" id="fotoBanner" placeholder="Ingresa la url a la imagen de portada..." formControlName="fotoBanner">
             </div>
+
+            <div *ngIf="FotoBanner?.errors && FotoBanner?.touched">
+                <p *ngIf="FotoBanner?.hasError('required')" class="error">
+                    <strong> --Este campo es requerido.-- </strong>
+                </p>
+            </div>
+
                 <button type="button" class="btn btn-primary">Guardar</button>
                 <button type="button" class="btn btn-info">Actualizar</button>
                 <button type="button" class="btn btn-danger">Eliminar</button>
