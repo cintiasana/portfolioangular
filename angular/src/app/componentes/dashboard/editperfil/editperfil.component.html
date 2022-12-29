@@ -1,18 +1,32 @@
 <h4>Editar Perfil.</h4>
 <!--Inicio formulario para editar mi perfil-->  
-                        <form>
+                        <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
                             <div class="my-3">
                                 <label for="nombrePerfil" class="form-label">Nombre y Apellido:</label>
-                                <input type="text" class="form-control" id="nombrePerfil" aria-describedby="emailHelp" placeholder="Ingresa tu nombre y apellido..." name="nombrePerfil">
+                                <input type="text" class="form-control" id="nombrePerfil" aria-describedby="emailHelp" placeholder="Ingresa tu nombre y apellido..." formControlName="nombrePerfil">
                             </div>
+
+                            <div *ngIf="NombrePerfil?.errors && NombrePerfil?.touched">
+                                <p *ngIf="NombrePerfil?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>
                                 <button type="button" class="btn btn-danger">Eliminar</button>
 
                             <div class="my-3">
                                 <label for="fotoPerfil" class="form-label">Foto de Perfil:</label>
-                                <input type="url" class="form-control" id="fotoPerfil" placeholder="Ingresa la url de tu foto de perfil..." name="fotoPerfil">
+                                <input type="url" class="form-control" id="fotoPerfil" placeholder="Ingresa la url de tu foto de perfil..." formControlName="fotoPerfil">
                             </div>
+
+                            <div *ngIf="FotoPerfil?.errors && FotoPerfil?.touched">
+                                <p *ngIf="FotoPerfil?.hasError('required')" class="error">
+                                    <strong> --Este campo es requerido.-- </strong>
+                                </p>
+                            </div>
+                
                                 <button type="button" class="btn btn-primary">Guardar</button>
                                 <button type="button" class="btn btn-info">Actualizar</button>
                                 <button type="button" class="btn btn-danger">Eliminar</button>
